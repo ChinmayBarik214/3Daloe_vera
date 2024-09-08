@@ -2,6 +2,11 @@ body {
   margin: 0;
 }
 
+canvas {
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0); /* mobile webkit */
+}
+
 #aloe_vera {
   position: absolute;
   top: 0;
